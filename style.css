@@ -1,0 +1,5 @@
+ .custom-list li:before {
+    content: "\25C9"; 
+    color: teal; 
+    margin-right: 5px;
+  }
