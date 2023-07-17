@@ -29,3 +29,28 @@
      right: 1px;
      bottom: 1px;
   }
+
+  #dropdown {
+    position: fixed;
+    bottom: 620px;
+    right: 50px;
+    width: 10px;
+    height: 10px;
+    border: none;
+    display: none;
+  }
+
+  #dropdown div {
+    background-color: teal;
+  }
+
+  #dropdown a {
+    border: none;
+    background-color: teal;
+  }
+
+  @media all and (max-width: 991px) {
+    #dropdown {
+      display: inline;
+    }
+  }
