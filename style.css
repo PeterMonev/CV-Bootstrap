@@ -3,3 +3,13 @@
     color: teal; 
     margin-right: 5px;
   }
+
+  .custom-a {
+    text-decoration: none;
+  }
+
+  .custom-a:hover {
+    text-decoration: underline !important;
+    color: coral !important;
+
+  }
